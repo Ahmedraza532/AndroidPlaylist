@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .heading{
+            background-color: black;
+            color: white;
+            display:inline-block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: wavy;
+            text-wrap: wrap;
+            font-size: 100px;
+            margin-left: 220px;
+        }
+        .box{
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1px;
+            margin-top: 10px;
+            padding: 0 4px;
+            object-fit: cover;
+        }
+        .box::after{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+        img{
+            height: 400px;
+            flex: 100%;
+            max-width: 100%;
+            padding: 0 4px;
+            vertical-align: middle;
+            width: 100%;
+            object-fit: cover;
+            image-resolution: 200%;
+            image-orientation: from-image;
+            image-rendering: optimizeQuality;
+        }
+        img::after{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .box2{
+            text-align: center;
+
+        }
+        @media screen and (max-width:900px)  {
+            .heading{
+                font-size: 30px;
+
+            }
+            
+            .box{
+                flex: 100%;
+                max-width: 400px;
+                object-fit: cover;
+            }
+            .box1{
+                flex-wrap: wrap;
+                flex: 100%;
+                flex-wrap: wrap;
+                max-width: 100%;
+                flex-direction: column;
+            
+            }
+            img{
+                flex: 50%;
+                flex-wrap: wrap;
+                max-width: 200%;
+
+            }
+        }
+        @media screen and (max-width:600px){
+            .header{
+                font-size: 30px;
+            }
+            
+            .box1{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                max-width: 100%;
+                flex: 100%;
+                width: 200px;
+                
+            }
+        }
+        @media screen and (min-width:6001px){
+            .heading{
+               font-size: 80px;
+               margin-left: 10px;
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>CAR STORE</h1>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <a href="https://www.bing.com/images/search?view=detailV2&ccid=2PPqYwZu&id=1C0629F52A74C9B60DEF23527F8AEEA573F44B59&thid=OIP.2PPqYwZuaFcCTWXozmJPXQHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d8f3ea63066e6857024d65e8ce624f5d%3frik%3dWUv0c6Xuin9SIw%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252ft7VZ2OM.jpg%26ehk%3dzAv0MNCGmNASSwfrAIA0NFWtNnPQYkBrVd9xfCvt0fI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=cars+images&simid=608032791540234475&FORM=IRPRST&ck=AAA98A8B236488A416B075ADAEE8BD1C&selectedIndex=43&itb=0"></a>
+            <img src="https://th.bing.com/th/id/OIP.2PPqYwZuaFcCTWXozmJPXQHaEo?w=275&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="cars show rome">
+            <div class="box2">          
+Supercars are high-performance, <br>luxury sports cars known for their speed, power, and advanced technology. <br>They often feature sleek, aerodynamic designs and are equipped with powerful engines that can produce over 500 horsepower.<br> Supercars are typically produced in limited quantities by prestigious manufacturers like Ferrari, Lamborghini, and McLaren.<br> These vehicles are not just about speed; they also offer superior handling, braking, and overall driving experience.<br> Owning a supercar is often seen as a status symbol due to their high price and exclusivity.
+            </div>
+        </div>
+        <div class="box1">
+            <a href="https://www.bing.com/images/search?view=detailV2&ccid=2PPqYwZu&id=1C0629F52A74C9B60DEF23527F8AEEA573F44B59&thid=OIP.2PPqYwZuaFcCTWXozmJPXQHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d8f3ea63066e6857024d65e8ce624f5d%3frik%3dWUv0c6Xuin9SIw%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252ft7VZ2OM.jpg%26ehk%3dzAv0MNCGmNASSwfrAIA0NFWtNnPQYkBrVd9xfCvt0fI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=cars+images&simid=608032791540234475&FORM=IRPRST&ck=AAA98A8B236488A416B075ADAEE8BD1C&selectedIndex=43&itb=0"></a>
+            <img src=https://th.bing.com/th/id/OIP.F3MsgJzAhUreDOHyr4uO6wHaEK?w=293&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7 alt="cars show rome">
+            <div class="box2">
+                Supercars are high-performance, <br>luxury sports cars known for their speed, power, and advanced technology. <br>They often feature sleek, aerodynamic designs and are equipped with powerful engines that can produce over 500 horsepower.<br> Supercars are typically produced in limited quantities by prestigious manufacturers like Ferrari, Lamborghini, and McLaren.<br> These vehicles are not just about speed; they also offer superior handling, braking, and overall driving experience.<br> Owning a supercar is often seen as a status symbol due to their high price and exclusivity.
+            </div>
+        </div>
+        <div class="box1">
+            <a href="https://www.bing.com/images/search?view=detailV2&ccid=2PPqYwZu&id=1C0629F52A74C9B60DEF23527F8AEEA573F44B59&thid=OIP.2PPqYwZuaFcCTWXozmJPXQHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d8f3ea63066e6857024d65e8ce624f5d%3frik%3dWUv0c6Xuin9SIw%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252ft7VZ2OM.jpg%26ehk%3dzAv0MNCGmNASSwfrAIA0NFWtNnPQYkBrVd9xfCvt0fI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=cars+images&simid=608032791540234475&FORM=IRPRST&ck=AAA98A8B236488A416B075ADAEE8BD1C&selectedIndex=43&itb=0"></a>
+            <img src=https://th.bing.com/th/id/OIP.EKiR03R5CMBo2KGs78E66AHaEK?w=310&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7 alt="cars show rome">
+            <div class="box2">
+                Supercars are high-performance, <br>luxury sports cars known for their speed, power, and advanced technology. <br>They often feature sleek, aerodynamic designs and are equipped with powerful engines that can produce over 500 horsepower.<br> Supercars are typically produced in limited quantities by prestigious manufacturers like Ferrari, Lamborghini, and McLaren.<br> These vehicles are not just about speed; they also offer superior handling, braking, and overall driving experience.<br> Owning a supercar is often seen as a status symbol due to their high price and exclusivity.
+            </div>
+        </div>
+        <div class="box1">
+            <a href="https://www.bing.com/images/search?view=detailV2&ccid=2PPqYwZu&id=1C0629F52A74C9B60DEF23527F8AEEA573F44B59&thid=OIP.2PPqYwZuaFcCTWXozmJPXQHaEo&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.d8f3ea63066e6857024d65e8ce624f5d%3frik%3dWUv0c6Xuin9SIw%26riu%3dhttp%253a%252f%252fwallpapercave.com%252fwp%252ft7VZ2OM.jpg%26ehk%3dzAv0MNCGmNASSwfrAIA0NFWtNnPQYkBrVd9xfCvt0fI%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1200&expw=1920&q=cars+images&simid=608032791540234475&FORM=IRPRST&ck=AAA98A8B236488A416B075ADAEE8BD1C&selectedIndex=43&itb=0"></a>
+            <img src=https://th.bing.com/th/id/OIP.bPEGywG3ZYMLO-hBby4JmQHaEK?w=291&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7 alt="cars show rome">
+            <div class="box2">
+                Supercars are high-performance, <br>luxury sports cars known for their speed, power, and advanced technology. <br>They often feature sleek, aerodynamic designs and are equipped with powerful engines that can produce over 500 horsepower.<br> Supercars are typically produced in limited quantities by prestigious manufacturers like Ferrari, Lamborghini, and McLaren.<br> These vehicles are not just about speed; they also offer superior handling, braking, and overall driving experience.<br> Owning a supercar is often seen as a status symbol due to their high price and exclusivity.
+            </div>
+        </div>
+        
+    </div>
+    
+            
+    
+</body>
+</html>
